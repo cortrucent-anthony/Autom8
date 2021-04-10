@@ -15,7 +15,7 @@ Import-Module ExchangeOnlineManagement
 
 # Connect
 Connect-ExchangeOnline
-
+#
 ### Begin Proofpoint configuration
 $proofpointCIDRs = "67.231.152.0/24","67.231.153.0/24","67.231.154.0/24",
     "67.231.155.0/24","67.231.156.0/24","67.231.144.0/24","67.231.145.0/24",
